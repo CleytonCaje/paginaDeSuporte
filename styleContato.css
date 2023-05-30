@@ -143,3 +143,19 @@ body {
     display: block;
     margin: 0 auto;
 }
+
+@media(max-width: 1000px) {
+    .cabecalho {
+        min-width: 100%;
+    }
+
+    .conteudo-secundario {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .rodape {
+        min-width: 100%;
+    }
+}

@@ -70,8 +70,8 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 24px;
-    gap: 12px;
+    padding: 12px;
+    gap: 24px;
 
 }
 
@@ -110,4 +110,31 @@ body {
     height: 48px;
     display: block;
     margin: 0 auto;
+}
+
+@media(max-width: 800px) {
+    .cabecalho {
+        min-width: 100%;
+    }
+
+    .conteudo {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .conteudo-principal-titulo {
+        display: flex;
+        min-width: 100%;
+    }
+
+    .rodape {
+        min-width: 100%;
+    }
+
+    .conteudo-cards-principal {
+        display: flex;
+        flex-direction: column;
+        min-width: 100%;
+    }
 }

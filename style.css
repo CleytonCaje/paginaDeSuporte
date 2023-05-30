@@ -129,3 +129,19 @@ body {
     display: block;
     margin: 0 auto;
 }
+
+@media(max-width: 800px) {
+    .cabecalho {
+        min-width: 100%;
+    }
+
+    .conteudo-principal {
+        display: flex;
+        flex-direction: column;
+        min-width: 100%;
+    }
+
+    .rodape {
+        min-width: 100%;
+    }
+}
